@@ -1,0 +1,35 @@
+to do:
+✓break up move_check function into move_check(to check viability of moves) and move_check_plus(to check user input moves, and output reasons for failure)
+✓create a take command
+✓create listen function to accept user input
+    ✓create help command (prints list of commands)
+    ✓create print commands (✓deck(prints given deck), ✓board(prints current board config), ✓pos_moves(prints all possible move inputs))
+    ✓create move command (takes (where, card, there) as parameters, and uses movers_and_shakers)
+    ✓create rules command (prints instructions)
+
+non-fatal errors:
+✓check_move does not consider if 'there' is equal to player.king as a failure
+✓pos_moves always uses default direction
+✓pos_moves does not print any king moves
+✓/move command does not call movers_and_shakers properly
+✓/move command occasionally removes played card, but does not move piece/print board
+    changelog: 
+    white begins, blackdeck = [frog,tiger], whitedeck = [monkey,crab], tempdeck = ox. 
+    /move d5 monkey c4(failure)
+    /move e5 crab e4(failure)
+    /move d5 monkey c4(failure)
+    /move d5 ox d4(failure)
+    /move a5 crab a4(success)
+    /move d1 tiger d3(failure)
+    /move b1 crab b2(success)
+    /move d5 ox d4(failure)
+    /move e5 crab e4(failure)
+    /move a4 crab c4(success)
+    /move c1 tiger c3(success)
+    /move d5 ox d4(failure)
+    /move c5 tiger c3(success)(white wins)
+    leads:
+    replicable error: even in other contexts
+    failure when moving d & e row pieces
+    success when moving a, b, & c row pieces
+    pieces moved into d & e rows remain movable
