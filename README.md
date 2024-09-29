@@ -1,6 +1,8 @@
 # Onitama-Clone
 This is a python exercise I did over the course of 5 days. It is a playable text based version of the boardgame 'Onitama.'
 
+Run Onitama.py to begin.
+
 
 
 Use the following commands to play the game(visible through use of /help or /? commands):
