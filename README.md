@@ -24,11 +24,11 @@ Use the following commands to play the game(visible through use of /help or /? c
 Here is an example introduction to the rules and functionality of the game(visible through /rules command):
 
         1|[♙][♙][♔][♙][♙]|
-        2|[--][--][--][--][--]|
-        3|[--][--][--][--][--]|
-        4|[--][--][--][--][--]|
+        2|[-][-][-][-][-]|
+        3|[-][-][-][-][-]|
+        4|[-][-][-][-][-]|
         5|[♟][♟][♚][♟][♟]|
-            a   b   c   d   e
+           a  b  c  d  e
 This is the board. As you can see, each team has 5 pieces.
 
 Let's say you were playing 'white'(♚ ). Which is only really white if you're using darkmode.
