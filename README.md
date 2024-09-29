@@ -51,8 +51,8 @@ Name: The Frog
         □ □ □ ▣ □
         □ □ □ □ □
 
-The □  box represents where your piece is currently.
-The ▣  box represents where you can move relative to □.
+The ■  box represents where your piece is currently.
+The ▣  box represents where you can move relative to ■.
 
 Name: The Frog
         □ □ □ □ □
