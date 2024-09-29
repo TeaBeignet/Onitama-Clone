@@ -62,10 +62,10 @@ def Listen(cmd: str, players, temp_deck):
                     if players[i].deck[j].name.lower() == cmd[2].lower():
                         card = j
                         checker = 1
-            else:
-                print("No such card: "+cmd[2]+"\n")
         if checker == 1:
             movers_and_shakers(players, temp_deck, card, cmd[1], cmd[3])
+        else:
+            print("No such card: "+cmd[2]+"\n")
 
     #/help command
     elif cmd[0].lower() == '/help' or cmd[0] == '/?':
