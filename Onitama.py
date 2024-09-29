@@ -84,7 +84,7 @@ def Listen(cmd: str, players, temp_deck):
         print("Let's take a look at your deck using the '/deck white' command.")
         sleep(x)
         print_deck('White', players[1].deck, players[1].direction)
-        print("\nThe ■  box represents where your piece is currently.\nThe ▣  box represents where you can move relative to □.\n")
+        print("\nThe ■  box represents where your piece is currently.\nThe ▣  box represents where you can move relative to ■.\n")
         sleep(x)
         print_card(Card('Frog',"Black",[(-2,0),(-1,-1),(1,1)]),1)
         print("\nThis is what the Frog card would look like in the 'white'(♚ ) deck.\n")
