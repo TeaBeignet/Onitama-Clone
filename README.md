@@ -5,7 +5,7 @@ Run Onitama.py to begin.
 
 
 
-Use the following commands to play the game(visible through use of /help or /? commands):
+Use the following commands to play the game (visible through use of /help or /? commands):
 
 '/help' or '/?'
 
@@ -31,7 +31,7 @@ Here is an example introduction to the rules and functionality of the game(visib
            a  b  c  d  e
 This is the board. As you can see, each team has 5 pieces.
 
-Let's say you were playing 'white'(♚ ). Which is only really white if you're using darkmode.
+Let's say you were playing 'white'(♚). Which is only really white if you're using darkmode.
 
 (If you want to change that swap line 39 in printer with line 43, and line 45 with line 47.)
 
@@ -39,47 +39,47 @@ Let's take a look at your deck using the '/deck white' command.
 
 White's Deck:
 Name: The Dragon
-        ■ ■ ■ ■ ■
-        ▣ ■ ■ ■ ▣
-        ■ ■ □ ■ ■
-        ■ ▣ ■ ▣ ■
-        ■ ■ ■ ■ ■
+        □ □ □ □ □
+        ▣ □ □ □ ▣
+        □ □ ■ □ □
+        □ ▣ □ ▣ □
+        □ □ □ □ □
 Name: The Frog
-        ■ ■ ■ ■ ■
-        ■ ▣ ■ ■ ■
-        ▣ ■ □ ■ ■
-        ■ ■ ■ ▣ ■
-        ■ ■ ■ ■ ■
+        □ □ □ □ □
+        □ ▣ □ □ □
+        ▣ □ ■ □ □
+        □ □ □ ▣ □
+        □ □ □ □ □
 
 The □  box represents where your piece is currently.
 The ▣  box represents where you can move relative to □.
 
 Name: The Frog
-        ■ ■ ■ ■ ■
-        ■ ▣ ■ ■ ■
-        ▣ ■ □ ■ ■
-        ■ ■ ■ ▣ ■
-        ■ ■ ■ ■ ■
+        □ □ □ □ □
+        □ ▣ □ □ □
+        ▣ □ ■ □ □
+        □ □ □ ▣ □
+        □ □ □ □ □
 
 This is what the Frog card would look like in the 'white'(♚ ) deck.
 
 Name: The Frog
-        ■ ■ ■ ■ ■
-        ■ ▣ ■ ■ ■
-        ■ ■ □ ■ ▣
-        ■ ■ ■ ▣ ■
-        ■ ■ ■ ■ ■
+        □ □ □ □ □
+        □ ▣ □ □ □
+        □ □ ■ □ ▣
+        □ □ □ ▣ □
+        □ □ □ □ □
 
 This is what the same card will look like when it is in the 'black'(♔ ) deck.
 This is because they would view the board from the opposite angle.
 
 The people's Deck:
 Name: The Elephant
-        ■ ■ ■ ■ ■
-        ■ ■ ■ ■ ■
-        ■ ▣ □ ▣ ■
-        ■ ▣ ■ ▣ ■
-        ■ ■ ■ ■ ■
+        □ □ □ □ □
+        □ □ □ □ □
+        □ ▣ ■ ▣ □
+        □ ▣ □ ▣ □
+        □ □ □ □ □
 
 This is the 'temp' deck, or 'The people's' deck. It is shown from the perspective of the player whose turn it is.
 Once your turn ends, the card you used will enter the temp deck, and the card in the temp deck will go to your deck.
